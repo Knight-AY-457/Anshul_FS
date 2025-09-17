@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SVG Drawing Tool</title>
+</head>
+<body>
+  <h2>SVG Drawing Tool</h2>
+
+  <label>
+    Color:
+    <input type="color" id="colorPicker" value="#1f77b4">
+  </label>
+  <button id="undoBtn">Undo</button>
+  <button id="clearBtn">Clear</button>
+
+  <div style="margin-top:10px;">
+    <svg id="canvas" width="800" height="500" style="border:1px solid #000; touch-action: none;"></svg>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
